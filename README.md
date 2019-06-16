@@ -1,2 +1,4 @@
 # swear-words
-Swear words
+Swear words in multiple different forms.
+
+## Usage:
