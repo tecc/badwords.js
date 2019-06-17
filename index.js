@@ -7,8 +7,30 @@ class Main {
     whitelist: []
   }) {
     this.options = options;
+    arr = arr.filter((item, index, arr) => {
+      return !whitelist.includes(item);
+    })
     return this;
   }
+  /**
+   * Returns whether or not a string contains profane
+   * language
+   *
+   * @param {string} string
+   * @returns {Boolean} whether or not it is profane
+   */
+  isProfane(str) {
+    let string = str.trim().split(/ +/g);
+    for (let i = 0; i < string.length; i++) {
+      if (arr.includes(string[i])) return true;
+    }
+    return false;
+  }
+  /**
+   * Clears a string off profane language
+   *
+   * @param {string}
+   */
   clear(str) {
     let r = str;
     for (let i = 0; i < arr.length; i++) {
@@ -20,6 +42,7 @@ class Main {
     }
     return r;
   }
+
 }
 
 module.exports.ARRAY = require('./array');
