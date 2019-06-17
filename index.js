@@ -23,7 +23,7 @@ class Main {
 }
 
 module.exports.ARRAY = require('./array');
-module.exports.OBJECT = require('./object');
+module.exports.OBJECT = require('./not-done');
 module.exports.JSON = require('./json');
 
 module.exports = Main;
