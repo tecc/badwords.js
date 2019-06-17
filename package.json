@@ -1,5 +1,5 @@
 {
-  "name": "swear-words",
+  "name": "badwords.js",
   "version": "0.1.0",
   "description": "Swear words, so you don't need to write them",
   "main": "index.js",
