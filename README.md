@@ -1,6 +1,6 @@
 # badwords.js
 Bad words in multiple different forms, and some methods to help you get rid of them!
-Version 0.1.0 (alpha)
+Version 0.1.4 (alpha)
 
 ## Usage:
 ```javascript
