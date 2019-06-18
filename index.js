@@ -37,7 +37,8 @@ class Main {
   /**
    * Clears a string off profane language
    *
-   * @param {string}
+   * @param {string} string
+   * @returns {Boolean}
    */
   clear(str) {
     let r = str;
@@ -53,8 +54,9 @@ class Main {
 
 }
 
-module.exports.ARRAY = require('./array');
-module.exports.OBJECT = require('./object');
-module.exports.JSON = require('./json');
+module.exports.ARRAY = require('./array.js');
+module.exports.OBJECT = require('./object.js');
+module.exports.JSON = require('./json.json');
+module.exports.REGEXP = require('./regexp.js');
 
 module.exports = Main;
