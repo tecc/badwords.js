@@ -1,6 +1,6 @@
 {
   "name": "badwords.js",
-  "version": "0.1.6",
+  "version": "0.1.6-alpha.0",
   "description": "Swear words, so you don't need to write them.",
   "updates": {
     "added": [
