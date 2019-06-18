@@ -2,6 +2,18 @@
   "name": "badwords.js",
   "version": "0.1.5",
   "description": "Swear words, so you don't need to write them.",
+  "updates": {
+    "added": [
+      "+ Added contact information to package.json",
+      ""
+    ],
+    "removed": [
+      "- Removed CNAME"
+    ],
+    "changed": [
+      "* Separated documentation from source code"
+    ]
+  },
   "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +27,7 @@
     "profanity",
     "badwords"
   ],
-  "author": "Technotype",
+  "author": "Technotype <technotype0001@gmail.com> (https://www.technotype.tk)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TechnotypeO/badwords.js/issues"

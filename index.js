@@ -1,6 +1,14 @@
 let arr = require('./array')
-
+let pkg = require('./package')
 class Main {
+  getInfo() {
+    return {
+      name: pkg.name,
+      version: pkg.version,
+      description: pkg.description,
+      updates: pkg.updates
+    }
+  }
   setOptions(options = {
     censor: '*',
     blacklist: arr,
