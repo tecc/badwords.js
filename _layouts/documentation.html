@@ -7,6 +7,7 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <script src="{{ "/assets/js/documentation.js"}}"></script>
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -31,13 +32,13 @@
         {% endif %}
 
         <ul class="downloads">
-          {% if site.show_downloads %}
+          <!--{% if site.show_downloads %}
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
           <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          {% endif %}
+          {% endif %}-->
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-          <li><a href="{{ site.url }}"><strong>Home</strong></li>
-          <li><a href="{{ site.url }}/examples">Examples</a></li>
+          <li><a href="{{ site.url }}">Go back<strong>Home</strong></li>
+          <li><a href="{{ site.url }}/examples">View the <strong>Examples</strong></a></li>
           <li><a href="{{ site.url }}/documentation">Documentation</a></li>
         </ul>
       </header>
