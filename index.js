@@ -54,9 +54,9 @@ class Main {
 
 }
 
-module.exports.ARRAY = require('./array.js');
-module.exports.OBJECT = require('./object.js');
-module.exports.JSON = require('./json.json');
+exports.ARRAY = require('./array.js');
+exports.OBJECT = require('./object.js');
+exports.JSON = require('./json.json');
 module.exports.REGEXP = require('./regexp.js');
 
 module.exports = Main;
