@@ -1,17 +1,17 @@
 {
   "name": "badwords.js",
-  "version": "0.1.6-alpha.1",
+  "version": "0.1.6",
   "description": "Swear words, so you don't need to write them.",
   "updates": {
     "added": [
-      "+ Added contact information to package.json",
-      ""
+      "+ Added Regular Expression type"
     ],
     "removed": [
-      "- Removed CNAME"
+      "Nothing was removed"
     ],
     "changed": [
-      "* Separated documentation from source code"
+      "* Fixed referencing using `.<OBJECT TYPE>`",
+      "* Updated README"
     ]
   },
   "main": "./index.js",
