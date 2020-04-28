@@ -1,17 +1,17 @@
 {
   "name": "badwords.js",
-  "version": "0.1.6",
+  "version": "0.1.7-alpha",
   "description": "Swear words, so you don't need to write them.",
   "updates": {
     "added": [
-      "+ Added Regular Expression type"
+      "Nothing was added."
     ],
     "removed": [
       "Nothing was removed"
     ],
     "changed": [
-      "* Fixed referencing using `.<OBJECT TYPE>`",
-      "* Updated README"
+      "Fixed getting different types of the list. Completely, I swear.",
+      "Changed repository and all that stuff. My name changed, you know."
     ]
   },
   "main": "./index.js",
@@ -20,17 +20,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TechnotypeO/badwords.js.git"
+    "url": "git+https://github.com/tecc/badwords.js.git"
   },
   "keywords": [
     "swear-words",
     "profanity",
     "badwords"
   ],
-  "author": "Technotype <technotype0001@gmail.com> (https://www.technotype.tk)",
+  "author": "tecc <tecc@tecc.me> (https://tecc.me/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TechnotypeO/badwords.js/issues"
+    "url": "https://github.com/tecc/badwords.js/issues"
   },
-  "homepage": "https://github.com/TechnotypeO/badwords.js#readme"
+  "homepage": "https://github.com/tecc/badwords.js#readme"
 }
