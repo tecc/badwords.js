@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = exports = {
     ahole: true,
     anus: true,
     ash0le: true,
