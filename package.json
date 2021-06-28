@@ -1,20 +1,20 @@
 {
   "name": "badwords.js",
-  "version": "0.1.8-alpha",
+  "version": "0.1.9-alpha",
   "description": "Swear words, so you don't need to write them.",
   "updates": {
     "added": [
-      "Nothing was added."
+      "Added type definitons."
     ],
     "removed": [
       "Nothing was removed"
     ],
     "changed": [
-      "Fixed getting different types of the list. Completely, I swear.",
-      "Changed repository and all that stuff. My name changed, you know."
+      "It's functional now."
     ]
   },
   "main": "./index.js",
+  "types": "./lib.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
